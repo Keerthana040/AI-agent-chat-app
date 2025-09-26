@@ -38,9 +38,42 @@ A modern AI-powered chat application built with **Stream Chat**, **OpenAI**, and
 - OpenAI API account
 - Tavily API account (for web search)
 
+Key Features
+
+Writing Prompts: Categorized prompts for business, content, communication, and creative tasks
+
+Agent Management: Dynamic AI agent lifecycle management
+
+Secure Authentication: JWT-based token authentication
+
+Responsive Design: Mobile-first design
+
+Real-time Collaboration: Live chat with AI assistance
+
+Web Research: Current information search capabilities
 
 
+ AI Agent Management System
 
+Agent Lifecycle Management
+
+Dynamic Agent Creation: AI agents are created per chat channel on-demand
+
+Agent Caching: In-memory cache to prevent duplicate agents for the same channel
+
+Automatic Cleanup: 8-hour inactivity threshold with periodic cleanup
+
+Race Condition Prevention: Pending agent tracking to prevent duplicate creation
+
+Buliding SAAS product with OpenAl and Oststream
+
+Web Search Integration
+
+Tavily API: Advanced web search with multiple result sources
+
+Automatic Search: Triggers web search for current information requests
+
+Result Synthesis: Combines multiple sources for comprehensive answers
 
 
 #### GetStream.io Setup
