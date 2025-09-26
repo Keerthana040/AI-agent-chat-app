@@ -107,13 +107,10 @@ graph TD
 
   <img width="1348" height="441" alt="Screenshot 2025-09-26 132511" src="https://github.com/user-attachments/assets/90d24425-b192-42cf-bd92-bb9b363b682f" />
   <img width="1449" height="803" alt="Screenshot 2025-09-26 132746" src="https://github.com/user-attachments/assets/1ed4d6e1-d670-46d3-90eb-32952bd948d0" />
+  <img width="1079" height="239" alt="Screenshot 2025-09-26 133320" src="https://github.com/user-attachments/assets/111b3420-ff57-4acb-86aa-bbe821d1556b" />
+  <img width="1042" height="577" alt="Screenshot 2025-09-26 133703" src="https://github.com/user-attachments/assets/392ad5c2-2759-4f4a-9fc2-2020fa4dc68c" />
 
 
+  
 
 
-- Review [OpenAI API Documentation](https://platform.openai.com/docs)
-- Create an issue in this repository
-
----
-
-Built with ❤️ using GetStream.io, OpenAI, and modern web technologies.
