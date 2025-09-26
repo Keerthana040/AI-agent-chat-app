@@ -1,43 +1,115 @@
-# Chat AI App
+Chat AI App
 
-A modern AI-powered chat application built with **Stream Chat**, **OpenAI**, and **web search capabilities**. This full-stack application provides an intelligent writing assistant that can help with content creation, research, and real-time collaboration.
+A modern AI-powered chat application built with Stream Chat, OpenAI, and web search capabilities. This full-stack application provides an intelligent writing assistant that supports content creation, research, and real-time collaboration.
 
-## 🚀 Features
+Features
 
-- **Real-time Chat**: Powered by [GetStream.io](https://getstream.io) for seamless messaging
-- **AI Writing Assistant**: OpenAI GPT-4 integration for intelligent content generation
-- **Web Search**: Live web search capabilities using Tavily API for current information
-- **Modern UI**: Beautiful React interface with dark/light theme support
-- **Writing Prompts**: Categorized writing prompts for business, content, communication, and creative tasks
-- **Agent Management**: Dynamic AI agent lifecycle management
-- **Secure Authentication**: JWT-based token authentication
-- **Responsive Design**: Mobile-first design with Tailwind CSS
+Real-time Chat: Powered by GetStream.io
+ for seamless messaging
 
-## 🏗️ Architecture
+AI Writing Assistant: OpenAI GPT-4 integration for intelligent content generation
 
-### Backend (`nodejs-ai-assistant/`)
+Web Search: Live web search capabilities using Tavily API for current information
 
-- **Node.js/Express** server
-- **Stream Chat** server-side integration
-- **OpenAI API** for AI responses
-- **Tavily API** for web search functionality
-- Agent management system with automatic cleanup
+Modern UI: React interface with dark/light theme support
 
-### Frontend (`react-stream-ai-assistant/`)
+Writing Prompts: Categorized prompts for business, content, communication, and creative tasks
 
-- **React** with TypeScript
-- **Stream Chat React** components
-- **Tailwind CSS** + **shadcn/ui** for modern styling
-- **Vite** for fast development and building
+Agent Management: Dynamic AI agent lifecycle management
 
-## 📋 Prerequisites
+Secure Authentication: JWT-based token authentication
 
-- Node.js 20 or higher
-- npm or yarn package manager
-- GetStream.io account (free tier available)
-- OpenAI API account
-- Tavily API account (for web search)
+Responsive Design: Mobile-first design with Tailwind CSS
 
+Real-time Collaboration: Live chat with AI assistance
+
+Web Research: Automatic search and synthesis of results from multiple sources
+
+Architecture
+Backend (nodejs-ai-assistant/)
+
+Node.js/Express server
+
+Stream Chat server-side integration
+
+OpenAI API for AI responses
+
+Tavily API for web search functionality
+
+Agent management system with automatic cleanup
+
+Frontend (react-stream-ai-assistant/)
+
+React with TypeScript
+
+Stream Chat React components
+
+Tailwind CSS + shadcn/ui for modern styling
+
+Vite for fast development and builds
+
+Prerequisites
+
+Node.js 20 or higher
+
+npm or yarn package manager
+
+GetStream.io account (free tier available)
+
+OpenAI API account
+
+Tavily API account (for web search)
+
+
+AI Agent Management System
+Agent Lifecycle Management
+
+Dynamic Agent Creation: AI agents are created per chat channel on-demand
+
+Agent Caching: In-memory cache prevents duplicate agents for the same channel
+
+Automatic Cleanup: 8-hour inactivity threshold with periodic cleanup
+
+Race Condition Prevention: Pending agent tracking to prevent duplicate creation
+
+Web Search Integration
+
+Tavily API: Advanced web search with multiple result sources
+
+Automatic Search: Triggers web search for current information requests
+
+Result Synthesis: Combines multiple sources for comprehensive answers
+
+Setup Instructions
+GetStream.io Setup
+
+Sign up at GetStream.io
+
+Create a new Chat application
+
+Copy your API Key and API Secret from the dashboard
+
+Use the same API Key in both backend and frontend .env files
+
+OpenAI API Setup
+
+Sign up at OpenAI Platform
+
+Navigate to API Keys section
+
+Create a new API key
+
+Add it to your backend .env file
+
+Tavily API Setup
+
+Sign up at Tavily
+
+Get your API key from the dashboard
+
+Add it to your backend .env file
+
+The frontend will run on http://localhost:8080
 Key Features
 
 Writing Prompts: Categorized prompts for business, content, communication, and creative tasks
