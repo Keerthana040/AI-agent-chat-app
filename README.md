@@ -1,7 +1,9 @@
-Chat AI App
-A modern AI-powered chat application built with Stream Chat, OpenAI, and web search capabilities. This full-stack application provides an intelligent writing assistant that supports content creation, research, and real-time collaboration.
+**Chat AI App:**<br>
+A modern AI-powered chat application built with Stream Chat, OpenAI, and web search capabilities. This full-stack application provides an intelligent writing assistant that supports content creation, research, and real-time collaboration.<br>
 
-Features
+
+
+**Features**
 Real-time Chat: Powered by GetStream.io for seamless messaging.
 
 AI Writing Assistant: OpenAI GPT-4 integration for intelligent content generation.
@@ -22,7 +24,9 @@ Real-time Collaboration: Live chat with AI assistance.
 
 Web Research: Automatic search and synthesis of results from multiple sources.
 
-Architecture
+
+
+**Architecture:**
 Backend (nodejs-ai-assistant/)
 Node.js/Express server
 
@@ -43,7 +47,9 @@ Tailwind CSS + shadcn/ui for modern styling
 
 Vite for fast development and builds
 
-Technologies Used
+
+
+**Technologies Used:**
 Backend
 Node.js: Runtime environment
 
@@ -77,7 +83,7 @@ React Hook Form: Form handling
 React Router: Navigation
 
 
-Key Systems
+**Key Systems:**
 AI Agent Management
 Dynamic Agent Creation: AI agents are created per chat channel on-demand.
 
